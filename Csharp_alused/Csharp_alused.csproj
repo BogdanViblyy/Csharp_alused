@@ -6,7 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <StartupObject>Csharp_alused.MainClass</StartupObject>
-    <ApplicationIcon>avatar_chef_cooking_man_icon_263221.png</ApplicationIcon>
   </PropertyGroup>
 
 </Project>

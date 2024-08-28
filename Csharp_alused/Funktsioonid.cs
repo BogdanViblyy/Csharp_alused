@@ -66,8 +66,42 @@ namespace Csharp_alused
         }
         // Küsi kahe inimese nimed ning teata, et nad on täna pinginaabrid
 
-
-
-
+        public static string Pikkuse_analuus(double pikkus)
+       
+        {
+            string analuus;
+            if (pikkus < 1.6)
+            {
+                analuus = "Lühika kasv";
+            }
+            else if (pikkus < 1.8)
+            {
+                analuus = "Keskmine kasvu inimene";
+            }
+            else
+            {
+                analuus = "Pikka kasvu inimene";
+            }
+            return analuus;
+        }
+        public static string Paevad(int nr)
+        //paeva number-> päeva nimetus
+        {
+            string paev;
+            switch (nr)
+            {
+                case 1: paev = "Esmaspäev"; break;
+                case 2: paev = "Teisipaev"; break;
+                case 3: paev = "Kolmapaev"; break;
+                case 4: paev = "Neljapaev"; break;
+                case 5: paev = "Reede"; break;
+                case 6: paev = "Laupäev"; break;
+                case 7: paev = "Pühapaev"; break;
+                default:
+                    paev = "Ei saa määrata";
+                    break;
+            }
+            return paev;
+        }
     }
 }
